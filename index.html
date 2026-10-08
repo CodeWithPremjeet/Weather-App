@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="h-screen w-screen flex flex-col justify-center items-center font-mono">
+    <h1 class="text-5xl uppercase font-serif font-bold text-red-400">Weather App</h1>
+    <div id="main" class="bg-blue-200 w-1/2 h-2/3 flex flex-col items-center justify-center">
+        <div>
+            <input type="text" id="city" class="bg-white border-black text-lg px-2 py-1"
+                placeholder="Enter your city name...">
+            <button id="searchbtn" class="bg-blue-400 px-2 py-1 text-lg">Search</button>
+        </div>
+        <p>or</p>
+        <div>
+            <button id="yourLocation" class="bg-sky-400 px-2 py-1 text-lg h-10 w-60">Search Your Location</button>
+        </div>
+        <div id="WeatherData">
+            <!-- <div class="flex flex-col items-center">
+                <div class="text-3xl pt-5 font-bold">
+                    23°C
+                </div>
+                <p class="font-mono">Delhi</p>
+            </div>
+            <div id="detail" class="flex gap-5 text-lg pt-5">
+                <div class="justify-center items-center flex flex-col">
+                    <p>Wind</p>
+                    <p>14km/h</p>
+                </div>
+                <div class="justify-center items-center flex flex-col">
+                    <p>Pressure</p>
+                    <p>5124ma</p>
+                </div>
+                <div class="justify-center items-center flex flex-col">
+                    <p>Humidity</p>
+                    <p>14%</p>
+                </div>
+            </div>
+            <div class="flex justify-around text-lg pt-8">
+                <div class="flex flex-col items-center bg-amber-400 p-2 rounded-md">
+                    <p >Surrise</p>
+                    <p class="font-bold">6:20</p>
+                </div>
+                <div class="flex flex-col items-center bg-amber-400 p-2 rounded-md">
+                    <p >Sunset</p>
+                    <p class="font-bold">6:20</p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
