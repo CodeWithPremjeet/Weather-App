@@ -69,11 +69,11 @@ function showWeather({ main, wind, name, sys }) {
                 </div>
             </div>
             <div class="flex justify-around text-lg pt-8">
-                <div class="flex flex-col items-center bg-amber-400 p-2 rounded-md">
+                <div class="flex flex-col items-center bg-amber-400/70 p-2 rounded-md">
                     <p >Sunrise</p>
                     <p class="font-bold">${convertTime(sys.sunrise)}</p>
                 </div>
-                <div class="flex flex-col items-center bg-amber-400 p-2 rounded-md">
+                <div class="flex flex-col items-center bg-amber-400/70 p-2 rounded-md">
                     <p >Sunset</p>
                     <p class="font-bold">${convertTime(sys.sunset)}</p>
                 </div>
